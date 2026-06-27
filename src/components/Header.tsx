@@ -5,12 +5,7 @@ interface HeaderProps {
 export default function Header({ onSubscribeClick }: HeaderProps) {
   return (
     <header className="border-b border-hairline pt-6 sm:pt-10 pb-6 sm:pb-8 px-4 sm:px-10 lg:px-14">
-      <div className="font-mono text-[10px] sm:text-xs tracking-widest uppercase text-slate flex gap-3 sm:gap-4 items-center">
-        <span className="whitespace-nowrap">Design System</span>
-        <span className="flex-1 h-px bg-hairline"></span>
-        <span className="whitespace-nowrap text-right hidden sm:inline">v1.0 &middot; AI &middot; Crypto &middot; Markets</span>
-      </div>
-      <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 md:gap-8 mt-8">
+      <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 md:gap-8">
         <div>
           <h1 className="font-display font-bold text-4xl sm:text-5xl lg:text-6xl leading-none tracking-tight uppercase">
             Daily Decrypt
